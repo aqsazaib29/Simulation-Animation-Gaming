@@ -1,0 +1,15 @@
+video{
+    height: 600px;
+    width: 1300px;
+    position: relative;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+  

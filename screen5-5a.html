@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styling/style.css">
+    <title>Responsive Video</title>
+</head>
+
+<body>
+    <video id="sc5" autoplay>
+        <source src="Videos/FALC9BVY8U7179SY.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <a href="screen6.html"><button onclick="goToNextPage()">NEXT</button></a>
+    <script>
+        function goToNextPage() {
+            // Redirect the user to the next page
+            window.location.href = "screen6.html";
+            video = document.getElementById("sc6");
+            video.play(video);
+        }
+    </script>
+
+
+
+</body>
+
+</html>
